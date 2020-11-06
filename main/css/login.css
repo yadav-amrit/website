@@ -1,0 +1,190 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.main{
+    height: 100%;
+    width: 100%;
+}
+.dis{
+    display: flex;
+    position: absolute;
+    height: 60%;
+    width: 50%;
+    top: 20%;
+    left: 25%;
+    box-shadow: 8px 8px 15px black;
+    /* border: 2px solid red; */
+}
+.signin{
+    width: 58%;
+    /* border: 2px solid yellow; */
+    border-right: 2px solid white;
+    height: 100%;
+}
+.center{
+    text-align: center;
+}
+.social{
+    display: flex;
+    justify-content: space-around;
+}
+.facebook button{
+    width: 46px;
+    margin: 8px 0px;
+    padding: 6px;
+    border-radius: 50%;
+    background: #43609C;
+    color: white;
+    font-size: 30px;
+    
+  }
+  .twitter button{
+    width: 45px;
+    margin: 8px 0px;
+    padding: 6px;
+    border-radius: 50%;
+    background-color: #6CADDE;
+    color: white;
+    font-size: 30px;
+    
+  }
+  .linkedin button{
+    width: 45px;
+    padding: 6px;
+    margin: 8px 0px;
+    border-radius: 50%;
+    background-color: #0e76a8;
+    color: white;
+    font-size: 30px;
+    
+  }
+  .google button{
+    width: 45px;
+    margin: 8px 0px;
+    padding: 6px;
+    border-radius: 50%;
+    background-color: #f74a34;
+    color: white;
+    font-size: 30px;
+    
+  }
+  button:focus{
+    outline: none;
+  }
+  button{
+    border: none;
+    background-color:  rgb(255, 40, 75);
+    color: black;
+  }
+  .username input{
+    width: 16rem;
+    /* background-color: grey; */
+    border: 0px;
+    border: transparent;
+    margin: 15px;
+    background-color: transparent;
+    color: black;
+    padding: 10px;
+    font-size: 18px;
+    top: 0px;
+    position: relative;
+    border-bottom: 2px solid  rgb(255, 40, 75);
+  }
+  .username input ~ span{
+    color: rgb(255, 40, 75);
+    font-size: larger;
+    position: absolute;
+    left: 40px;
+    transition: 0.9s ease-in-out;
+    margin-top: 29px;
+  }
+  .username input:focus ~span{
+    transform: translateY(-38px);
+    pointer-events: none;
+    color: black;
+  }
+
+  .password input{
+    width: 16rem;
+    background-color: transparent;
+    border: 0px;
+    border: transparent;
+    margin-top: 15px;
+    padding: 10px;
+    font-size: 18px;
+    top: 0px;
+    position: relative;
+    border-bottom: 2px solid  rgb(255, 40, 75);
+  }
+  .password input ~ span{
+    color:  rgb(255, 40, 75);
+    font-size: larger;
+    position: absolute;
+    left: 40px;
+    transition: 0.9s ease-in-out;
+    margin-top: 29px;
+  }
+  .password input:focus ~span{
+    transform: translateY(-35px);
+    pointer-events: none;
+    color:black;
+  }
+  
+  p{
+    margin-top: 23px;
+    margin-bottom:2px;
+    color: grey;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+  }
+  .signup{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:  rgb(255, 40, 75);
+  }
+  h1{
+    font-family: 'Baloo Tammudu 2', cursive;
+    color:  rgb(255, 40, 75);
+  }
+  .hello{
+    color: white;
+    font-weight: 50px;
+  }
+  h3{
+    color: white;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    font-family: 'Roboto', sans-serif;
+  }
+  .ss{
+    width: 120px;
+    height: 30px;
+    border-radius: 30px;
+    background-color: white;
+    color:  rgb(255, 40, 75);
+  }
+  .logi{
+    width: 120px;
+    height: 30px;
+    border-radius: 30px;
+    margin: 10px;
+    color:  white;
+  }
+  .entry{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .loggh1{
+    margin-top: 15px;
+    color:  rgb(255, 40, 75);
+  }
+  .forgot{
+    margin-top: 10px;
+    text-decoration: none;
+    color: grey;
+  }
